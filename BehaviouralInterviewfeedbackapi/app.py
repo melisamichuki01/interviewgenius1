@@ -5,7 +5,7 @@ from openai import AzureOpenAI
 app = Flask(__name__)
 CORS(app)
 
-ENDPOINT = "https://polite-ground-030dc3103.4.azurestaticapps.net/api/v1"
+ENDPOINT = ""
 API_KEY = ""  # Replace with your actual API key
 API_VERSION = "2024-02-01"
 MODEL_NAME = "gpt-35-turbo"
